@@ -532,9 +532,22 @@ h2 {
   }
 
   .header-content .main-heading {
-    display: none;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
   }
 
+  .header-content .main-paragraph {
+    font-size: small;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+
+  .header-content .main-btn {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+  }
   .row {
     height: auto;
     width: 100%;
